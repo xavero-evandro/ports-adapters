@@ -11,8 +11,8 @@ await register.execute({
 
 const login = new UserLogin()
 
-const usuario = await login.execute({
+const user = await login.execute({
   email: "john@john.land",
   password: "123456",
 })
-console.log(`### - usuario:`, usuario)
+console.log(`### - user:`, user)
